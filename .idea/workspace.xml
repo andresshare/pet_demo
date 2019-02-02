@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f677fa3-d682-4816-95d8-7a585b4de134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rodo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pet_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet_demo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet_demo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet_demo/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="4f677fa3-d682-4816-95d8-7a585b4de134" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549118685989</updated>
       <workItem from="1549118689003" duration="610000" />
-      <workItem from="1549119485233" duration="10337000" />
+      <workItem from="1549119485233" duration="10706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10947000" />
+    <option name="totallyTimeSpent" value="11316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="18" width="1372" height="752" extended-state="6" />
