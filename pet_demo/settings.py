@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pet_demo.adopcion',
+    'mascota',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +79,7 @@ WSGI_APPLICATION = 'pet_demo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_contactos',
+        'NAME': 'db_mascota',
         'USER': 'user360',
         'PASSWORD': '8010Andres*',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
