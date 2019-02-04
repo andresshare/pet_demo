@@ -20,5 +20,8 @@ from django.contrib import admin
 
 
 urlpatterns = [
+
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^mascota/', include('mascota.urls',namespace="mascota")),
+    url(r'^adopcion/', include('adopcion.urls', namespace="adopcion")),
 ]

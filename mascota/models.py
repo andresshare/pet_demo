@@ -1,9 +1,13 @@
 from django.db import models
-from pet_demo.adopcion.models import Persona
+from adopcion.models import Persona
 
 
 class Vacuna(models.Model):
     nombre= models.CharField(max_length=50)
+
+    def __str__(self):
+        return '{}'.format(self.nombre)
+
 
 class Mascota(models.Model):
     folio = models.CharField(max_length=10, primary_key=True)
@@ -13,5 +17,8 @@ class Mascota(models.Model):
     fecha_rescate = models.DateField()
     persona  = models.ForeignKey(Persona,null=True,blank=True, on_delete=models.CASCADE)
     vacuna = models.ManyToManyField(Vacuna)
+
+    def __str__(self):
+        return
 
 

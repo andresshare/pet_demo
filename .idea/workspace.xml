@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f677fa3-d682-4816-95d8-7a585b4de134" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mascota/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mascota/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mascota/mascota_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mascota/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mascota/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mascota/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mascota/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/adopcion/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mascota/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_demo/adopcion/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_demo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_demo/urls.py" afterDir="false" />
     </list>
@@ -17,61 +32,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pet_demo/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pet_demo/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#632#664#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mascota/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pet_demo/adopcion/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="192">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mascota/admin.py">
+        <entry file="file://$PROJECT_DIR$/adopcion/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="246">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="3" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mascota/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" lean-forward="true" selection-start-line="9" selection-end-line="21" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django_Datos.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="324">
+                <caret line="394" lean-forward="true" selection-start-line="394" selection-end-line="394" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,18 +103,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/adopcion/models.py" />
         <option value="$PROJECT_DIR$/pet_demo/adopcion/models.py" />
-        <option value="$PROJECT_DIR$/Django_Datos.md" />
-        <option value="$PROJECT_DIR$/mascota/models.py" />
         <option value="$PROJECT_DIR$/mascota/admin.py" />
         <option value="$PROJECT_DIR$/pet_demo/adopcion/admin.py" />
-        <option value="$PROJECT_DIR$/pet_demo/settings.py" />
+        <option value="$PROJECT_DIR$/adopcion/admin.py" />
+        <option value="$PROJECT_DIR$/adopcion/views.py" />
+        <option value="$PROJECT_DIR$/adopcion/urls.py" />
         <option value="$PROJECT_DIR$/pet_demo/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base/header.html" />
+        <option value="$PROJECT_DIR$/templates/mascota/index.html" />
+        <option value="$PROJECT_DIR$/pet_demo/settings.py" />
+        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/mascota/forms.py" />
+        <option value="$PROJECT_DIR$/mascota/views.py" />
+        <option value="$PROJECT_DIR$/mascota/urls.py" />
+        <option value="$PROJECT_DIR$/templates/mascota/mascota_form.html" />
+        <option value="$PROJECT_DIR$/Django_Datos.md" />
+        <option value="$PROJECT_DIR$/adopcion/models.py" />
+        <option value="$PROJECT_DIR$/mascota/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="7" fullScreen="true">
     <option name="y" value="32" />
     <option name="width" value="1342" />
     <option name="height" value="700" />
@@ -113,6 +146,11 @@
             <path>
               <item name="pet_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pet_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="adopcion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pet_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet_demo" type="462c0819:PsiDirectoryNode" />
               <item name="mascota" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -123,8 +161,13 @@
             <path>
               <item name="pet_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pet_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pet_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pet_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="adopcion" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mascota" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,6 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -140,6 +184,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pet_demo" />
     </key>
   </component>
@@ -193,17 +238,19 @@
       <updated>1549118685989</updated>
       <workItem from="1549118689003" duration="610000" />
       <workItem from="1549119485233" duration="23229000" />
+      <workItem from="1549287456584" duration="22588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23839000" />
+    <option name="totallyTimeSpent" value="46427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-26" width="1372" height="797" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.25378788" />
-      <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965035" visible="true" weight="0.2030303" />
+      <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.2030303" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32756132" />
@@ -215,8 +262,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21212122" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30115274" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299712" />
       <window_info anchor="bottom" id="Favorites" order="13" side_tool="true" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -236,63 +283,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pet_demo/adopcion/models.py">
+    <entry file="file://$PROJECT_DIR$/mascota/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adopcion/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adopcion/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet_demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" lean-forward="true" selection-start-line="15" selection-end-line="27" />
+          <folding>
+            <element signature="e#632#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adopcion/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mascota/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mascota/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mascota/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mascota/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" lean-forward="true" selection-start-line="9" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="3" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django_Datos.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="128">
-            <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+          <first_editor relative-caret-position="324">
+            <caret line="394" lean-forward="true" selection-start-line="394" selection-end-line="394" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adopcion/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mascota/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet_demo/adopcion/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="192">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mascota/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet_demo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet_demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
