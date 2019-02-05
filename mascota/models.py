@@ -9,6 +9,8 @@ class Vacuna(models.Model):
         return '{}'.format(self.nombre)
 
 
+
+
 class Mascota(models.Model):
     folio = models.CharField(max_length=10, primary_key=True)
     nombre = models.CharField(max_length=50)
@@ -18,7 +20,5 @@ class Mascota(models.Model):
     persona  = models.ForeignKey(Persona,null=True,blank=True, on_delete=models.CASCADE)
     vacuna = models.ManyToManyField(Vacuna)
 
-    def __str__(self):
-        return
 
 
